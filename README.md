@@ -1,1 +1,1 @@
-![alt text](/client/public/images/ERD.png)
+![Alt text](/client/public/images/ERD.png)
