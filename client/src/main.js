@@ -1,5 +1,5 @@
 export async function fetchData(route='', data= {}, methodType) {
-    const response=await fetch(`http://localhost:5000${route}`,{
+    const response = await fetch(`http://localhost:5000${route}`,{
         method: methodType,
         headers: {
             'Content-Type': 'application/json'
