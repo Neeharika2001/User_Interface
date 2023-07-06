@@ -37,22 +37,22 @@ const Register= () => {
     return (
             <div>
                 <form onSubmit={onSubmit}>
-                    <label for="username"><b>Username</b></label>
+                    <label htmlFor="username"><b>Username</b></label>
                     <input type="text" id="username" name="username" placeholder="username" onChange={onChange} value={username}></input>
                     
 
                     <br></br>
                     
-
-                    <label for="password"><b>Password</b></label>
+                
+                    <label htmlFor="password"><b>Password</b></label>
                     <input type="password" id="pswd" name="password" placeholder="enter password"onChange={onChange} value={password}></input>
                     <br></br>
 
-                    <label for="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email</b> </label>
+                    <label htmlFor="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b>Email</b> </label>
                     <input type="email" id="email" name="email" placeholder="email"onChange={onChange} value={email}></input>
                     <br></br>
                     
-                    <input type="submit" value="Register"></input>
+                    <button onSubmit={onSubmit} >Register</button>
                     <p><b>Already have an account</b><a href="login">&nbsp;login</a></p>
                 </form>
 
